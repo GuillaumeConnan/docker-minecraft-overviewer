@@ -45,3 +45,7 @@ This Minecraft Overviewer container can be configured with the following environ
   - `MCO_NIGHT_NORTH_DIRECTION`: defines North direction of the rendered night map (default to `upper-left`)
   - `MCO_RENDER_NETHER`: defines if a Nether map must be rendered (default to `0`, possible other value `1`)
   - `MCO_NETHER_NORTH_DIRECTION`: defines North direction of the rendered Nether map (default to `upper-left`)
+
+## How it works
+
+![howitworks](https://cloud.githubusercontent.com/assets/5552420/26220880/c1f941ba-3c14-11e7-85b1-b879b1c80d9a.png)
