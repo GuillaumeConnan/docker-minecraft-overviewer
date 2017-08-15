@@ -2,12 +2,12 @@ FROM debian:stretch
 
 MAINTAINER Guillaume CONNAN "guillaume.connan44@gmail.com"
 
-LABEL version="0.1.1"                 \
+LABEL version="0.1.2"                 \
       overviewer_version="39d588a"    \
-      minecraft_version="1.12"
+      minecraft_version="1.12.1"
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV MC_VERSION 1.12
+ENV MC_VERSION 1.12.1
 
 RUN (                                                                                               \
         echo "deb http://deb.debian.org/debian stretch main contrib non-free"                       \
