@@ -2,9 +2,7 @@ FROM debian:stretch
 
 MAINTAINER Guillaume CONNAN "guillaume.connan44@gmail.com"
 
-LABEL version="0.1.3"                 \
-      overviewer_version="22b9ab3"    \
-      minecraft_version="1.12.2"
+LABEL version="0.1.4"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV MC_VERSION 1.12.2
